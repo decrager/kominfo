@@ -12,4 +12,7 @@ module.exports = function(app) {
 
     app.route('/getPengguna/:id')
         .get(pengguna_route.showPenggunaid);
+
+    app.route('/postPengguna')
+        .post(pengguna_route.addPengguna);
 };
