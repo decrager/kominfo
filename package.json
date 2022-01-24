@@ -1,0 +1,24 @@
+{
+  "name": "kominfo",
+  "version": "1.0.0",
+  "description": "RESTful API Kominfo Kota Bogor",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/decrager/kominfo.git"
+  },
+  "keywords": [
+    "RESTful",
+    "API",
+    "Kominfo"
+  ],
+  "author": "Aldo Bramantio",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/decrager/kominfo/issues"
+  },
+  "homepage": "https://github.com/decrager/kominfo#readme"
+}
