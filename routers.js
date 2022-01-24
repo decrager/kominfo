@@ -24,11 +24,24 @@ module.exports = function(app) {
     app.route('/deletePengguna')
         .delete(pengguna_route.deletePengguna);
 
-    // ==================== TABLE pengguna ====================
+    // ==================== TABLE agenda ====================
 
     app.route('/getAgenda')
         .get(agenda_route.showAgenda);
 
     app.route('/getAgenda/:id')
         .get(agenda_route.showAgendaid);
-};
+
+    app.route('/postAgenda')
+        .post(agenda_route.addAgenda);
+
+    app.route('/putAgenda')
+        .put(agenda_route.updateAgenda);
+
+    app.route('/deleteAgenda')
+        .delete(agenda_route.deleteAgenda);
+
+    // ==================== TABLE berita ====================
+
+    
+}
